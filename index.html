@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websiteproject</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="image/peach.jpg" type="image">
+  <link rel="stylesheet" href="src/output.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+</head>
+<body class="bg-emerald-600">
+        <nav class="py-2">
+            <div class="max-w-6xl mx-auto px-4 smm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <!-- logo -->
+                    <div class="flex-shrink-0 flex items-end">
+                        <span class="text-green-900 text-2xl font-bold">MATCHA<span class="text-primary"></span></span>
+                    </div>
+                
+                    <div class="toggle hidden w-full md:w-auto md:flex text-right font-semibold mt-5 md:mt-0 border-t-2 border-green-300 md:border-none">
+                       <div class="ml-10 flex items-baseline space-x-4">
+                           <a href="#aboutme" class="text-white hover:bg-green-900 px-5 py-2 text-sm font-bold">About Me</a>
+                           <a href="#whatido" class="text-white hover:bg-green-900 px-5 py-2 text-sm font-bold">whatIdo</a>
+                           <a href="#portofolio " class="text-white hover:bg-green-900 px-5 py-2 text-sm font-bold">Portofolio</a>
+                           <a href="#skill" class="text-white hover:bg-green-900 px-5 py-2 text-sm font-bold">Skill</a>
+                           <a href="#contact" class="text-white border-green-200 rounded-none py-[10px] hover:bg-green-900 px-4 text-sm font-bold">Contact</a>
+                       </div>
+                    </div>
+                    <div class="sm:hidden flex items-center">
+                       <button id="mobile-menu-btn" type="button" class="text-white hover:text-light gray focus:outline-none focus:text-light-gray" aria-label="Toggle menu">
+                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                             </svg>
+                       </button>
+                    </div>
+                </div>
+             </div>
+             <!-- navlink -->
+             
+        </nav>
+
+
+        <!-- hero -->
+         <section class="hero text-white py-28">
+            <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h4 class="text-2xl font-bold text-green-950 lg:leading-[94px] lg:text-[38px]">Hello, im FARISHA</h4>
+                <h1 class="text-5xl mt-3 font-bold lg:text-[88px] lg:leading-[94px]"><span id="typed"></span></h1>
+                <p class="mt-4 text-lime-950 font-normal text-base w-full lg:w-3/6 mt-9">I'm from Aceh and i love soo much Matcha and Coffee
+                    <a href="#"></a> <span class="underline font-semibold"></span>
+                </p>
+                <div class="mt-4">
+                    <div class="mt-6 flex items-center gap-3">
+                        <a href="#email" class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-white hover:bg-green-800 text-black md:rounded font-orange font-semibold">Email</a>
+                        <a href="" class="flex items-center text-gray-50 font-bold text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                              </svg>
+                            <a href="#" class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-white hover:bg-green-800 text-black md:rounded font-orange font-semibold">Download</a>                         
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- whatido -->
+         <section id="whatIdo" class="bg-emerald-500" id="whatIdo">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-slate-400">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h2 class="sm:text-3xl text-[40px] font-bold font-acme text-white underline decoration-green-950 decoration-4 underline-offset-8 tracking-[7px] uppercase">What I Do</h2>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex rounded-lg h-full bg-slate-700 shadow-xl bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-slate-800 text-white flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                                    </svg>
+                                </div>
+                                <h2 class="text-slate-200 text-lg font-ubuntu font-medium">PROGRAMMER</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-md font-ubuntu text-slate-400">im study at IDN and im my major is PROGRAMMER
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="flex rounded-lg h-full bg-slate-700 shadow-xl bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-8 h-8 mr-3 inline-flex items-center justify-center bg-slate-800 rounded-full bg-primary-500 text-white flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                    </svg>
+    
+                                </div>
+                                <h2 class="text-slate-200 text-lg font-ubuntu font-medium">BARISTA</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-md font-ubuntu text-slate-400">i lovee making coffe and matcha or any drink</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3" data-aos="fade-up" data-aos-delay="500">
+                        <div class="flex rounded-lg h-full bg-slate-700 shadow-xl bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-8 h-8 mr-3 inline-flex items-center justify-center bg-slate-800 rounded-full bg-primary-500 text-white flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                    </svg>
+    
+                                </div>
+                                <h2 class="text-slate-200 text-lg font-ubuntu font-medium">BAKERY</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-md font-ubuntu text-slate-400">i like making dessert and some sweet food</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portofolio -->
+        <section id="portofolio" class="bg-emerald-600" id="portofolio">
+            <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h2 class="sm:text-3xl text-[40px] font-bold font-acme text-white underline decoration-green-400 decoration-4 underline-offset-8 tracking-[7px] uppercase">Portofolio</h2>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="xl:w-1/3 md:w-1/2 p-4"><a href="https://www.youtube.com/watch?v=bTM0LDUoGOA">
+                            <div class="bg-slate-600 bg-opacity-40 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                    src="image/barista.jpeg" alt="content">
+                                <h2 class="text-[28px] text-center text-slate-200 font-medium font-levi mb-4">BARISTA</h2>
+                                <p class="leading-relaxed text-[16px] font-jay text-white text-center">saya mengetahui jenis jenis kopi dan matcha latte</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4"><a href="https://www.youtube.com/watch?v=5bId3N7QZec">
+                            <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                    src="image/programmer.jpeg" alt="content">
+                                    <h2 class="text-[28px] text-center text-slate-200 font-medium font-levi mb-4">PROGRAMMER</h2>
+                                    <p class="leading-relaxed text-[16px] font-jay text-white text-center">saya baru memperlajari dan baru terjun didunia it</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xl:w-1/3 md:w-1/2 p-4">
+                        <a href="https://www.youtube.com/watch?v=wLtVgLt7dBA">
+                            <div class="bg-slate-600  bg-opacity-40 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                    src="image/baking.jpeg" alt="content">
+                                    <h2 class="text-[28px] text-center text-slate-200 font-medium font-levi mb-4">BAKING</h2>
+                                    <p class="leading-relaxed text-[16px] font-jay text-white text-center">Membuat aneka dessert dan makanan penutup</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill -->
+        <section id="skill" class="bg-emerald-600" id="Skill">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-white">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h2 class="sm:text-3xl text-[40px] font-bold font-orange text-white underline decoration-pink-500 decoration-4 underline-offset-8 tracking-[7px] uppercase">My Skill</h2>
+                </div>
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex-col md:items-start md:text-left mb-14 md:mb-0 items-center text-center">
+                    <!-- grow itu ukuran untuk memenuhi ruang -->
+                     <!-- lg, md dan mb itu untuk mengatur flexibilitas sebuah web, jadi untuk tampilan web nya gimana pas dilayar kecil -->
+                      <!-- p itu padding -->
+                     <h2 class="font-orange sm:text-[30px] text-xl mb-5 font-bold text-white">Barista</h2>
+                     <p class="mb-8 leading-relaxed text-slate-300">Saya mengetahui banyak jenis kopi, jenis matcha, dan berbagai jenis teh lainnya </p>
+                </div>
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/4">
+                            <div class="flex rounded-lg bg-slate-900 hover:scale-105 duration-400 p-4 flex-col justify-center items-center">
+                                <img src="image/logo kopi.jpg" class="w-96" alt="Adobe">
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="flex rounded-lg bg-slate-900 hover:scale-105 duration-400 p-4 flex-col justify-center items-center">
+                                <img src="image/matcha-removebg-preview.png" class="w-96" alt="Adobe">
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="flex rounded-lg bg-slate-900 hover:scale-105 duration-400 p-4 flex-col justify-center items-center">
+                                <img src="image/bakery.jpeg" class="w-96" alt="Adobe">
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/4">
+                            <div class="flex rounded-lg bg-slate-900 hover:scale-105 duration-400 p-4 flex-col justify-center items-center">
+                                <img src="image/it.jpeg" class="w-96" alt="Adobe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- blog -->
+          <section id="blog" class="bg-emerald-600" id="Blog">
+            <div class="container px-5 py-24 mx-auto border-t-2 border-slate-400">
+                <div class="flex flex-wrap -mx-4 -my-8">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h2 class="sm:text-4xl text-2xl font-medium font-pinky text-white underline decoration-green-950 decoration-4 underline-offset-8 tracking-[7px] uppercase">My Blog</h2>
+                    </div>
+                    <div class="py-8 px-4 lg:w-1/3 ">
+                        <div class="bg-green-950 shadow-2xl p-6 rounded-lg h-full flex items-start" data-aos="zoom-out-up" data-aos-delay="400">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-200 pb-2 mb-2 border-b-2 border-gray-600 font-orange">rawr</span>
+                                <span class="font-levi text-xl leading-none text-gray-200">22</span>
+                            </div>
+                            <div class="flex-grow pl-6 ">
+                                <!-- untuk memberi jarak itu bisa pake tracking -->
+                                <h2 class="tracking-widest text-xs font-semibold text-red-600 mb-1 uppercase">AboutCoffee</h2>
+                                <h3 class="font-serif text-2xl font-medium text-slate-200 mb-3">you need coffein in your day </h3>
+                                <p class="leading-relaxed mb-5 text-slate-400 font-mono font-medium">p ngopi ape ngopi</p>
+                                <a href="" class="mt-3 text-red-600 inline-flex items-center cursor-pointer">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-8 px-4 lg:w-1/3 ">
+                        <div class="bg-green-950 shadow-2xl p-6 rounded-lg h-full flex items-start" data-aos="zoom-out-up" data-aos-delay="400">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-200 pb-2 mb-2 border-b-2 border-gray-600 font-orange">rawr</span>
+                                <span class="font-levi text-xl leading-none text-gray-200">22</span>
+                            </div>
+                            <div class="flex-grow pl-6 ">
+                                <!-- untuk memberi jarak itu bisa pake tracking -->
+                                <h2 class="tracking-widest text-xs font-semibold text-red-600 mb-1 uppercase">AboutBakery</h2>
+                                <h3 class="font-serif text-2xl font-medium text-slate-200 mb-3">you some dessert in your life</h3>
+                                <p class="leading-relaxed mb-5 text-slate-400 font-mono font-medium">p ngopi ape ngopi</p>
+                                <a href="" class="mt-3 text-red-600 inline-flex items-center cursor-pointer">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-8 px-4 lg:w-1/3 ">
+                        <div class="bg-green-950 shadow-2xl p-6 rounded-lg h-full flex items-start" data-aos="zoom-out-up" data-aos-delay="400">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-200 pb-2 mb-2 border-b-2 border-gray-600 font-orange">rawr</span>
+                                <span class="font-levi text-xl leading-none text-gray-200">22</span>
+                            </div>
+                            <div class="flex-grow pl-6 ">
+                                <!-- untuk memberi jarak itu bisa pake tracking -->
+                                <h2 class="tracking-widest text-xs font-semibold text-red-600 mb-1 uppercase">AboutProgrammer</h2>
+                                <h3 class="font-serif text-2xl font-medium text-slate-200 mb-3">you need codingan biar stress awoakwoak</h3>
+                                <p class="leading-relaxed mb-5 text-slate-400 font-mono font-medium">p ngoding p ngoding</p>
+                                <a href="" class="mt-3 text-red-600 inline-flex items-center cursor-pointer">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- contact me -->
+     <section id="contact" class="bg-emerald-600 relative">
+        <div class="container px-5 py-24 mx-auto border-t-4 border-slate-950 shadow-xl drop-shadow-lg ">
+            <div class="flex flex-col text-center w-full mb-14" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="sm:text-3xl text-[40px] font-bold font-acme text-white underline decoration-orange-400 decoration-4 underline-offset-8 tracking-[7px] uppercase">Contact Me</h2>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-xl font-nunito font-semibold uppercase mt-6 text-slate-400">Hubungi kami jika anda minat</p>
+            </div>
+            <div class="lg:w-1/3 md:w-2/3 mx-auto">
+                <div class="bg-green-950 bg-opacity-50 p-6 rounded-lg h-full flex items-start">
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu ">Name</label>
+                                <input type="text" name="name" class="w-full bg-green-950 bg-opacity-30 rounded border border-slate-500 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600">
+                            </div>
+                        </div>
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu ">Email</label>
+                                <input type="email" name="email" class="w-full bg-green-950 bg-opacity-30 rounded border border-slate-500 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600">
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label class="leading-7 text-xl text-slate-200 uppercase font-ubuntu ">Message</label>
+                                <textarea name="email" class="w-full bg-green-950 bg-opacity-30 rounded border border-slate-500 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 text-base outline-none text-gray-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mt-2 focus:bg-slate-600 resize-none"></textarea>
+                            </div>
+                        </div>
+                        <div class="p-4 w-full">
+                            <button type="submit" class="flex mx-auto text-orange-400 bg-green-950 bg-opacity-30 hover:bg-orange-700 hover:text-white border-none font-orange font-semibold py-6 px-10 focus:outline-none text-md uppercase shadow-lg drop-shadow-lg rounded-xl">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer class="pt-8 pb-6 bg-blend-darken">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex justify-between items-start">
+                <span class="text-white text-[26px] font-bold">Contact<span class="text-primary"></span></span>
+                <div class="w-full links mt-10 md:mt-0 spaye-y-5 md:w-96 justify-between md:space-y-0 md:flex">
+                    <div class="info">
+                        <h6 class="text-xl text-white font-semibold mb-6">Information</h6>
+                       <ul class="text-gray space-y-3">
+                           <li class="hover:underline"><a href="#">083938443</a></li>
+                           <li class="hover:underline"><a href="#">far@gmail.com</a></li>
+                           <li class="hover:underline"><a href="#">aceh, Indonesia</a></li>
+                       </ul>
+                        
+                    </div>
+                    <div class="social">
+                        <h6 class="text-xl text-white font-semibold mb-6">Information</h6>
+                        <ul class="text-gray space-y-3">
+                            <li class="hover:underline"><a href="#">Love</a></li>
+                            <li class="hover:underline"><a href="#">Matcha</a></li>
+                            <li class="hover:underline"><a href="#">Latte</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    
+        
+    
+         <!-- service -->
+        
+           
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- type js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- owl carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $(document).ready(function(){
+                $('#mobile-menu-btn').click(function(){
+                    $("mobile-menu").slideToggle();
+                });
+            });
+        </script>
+        <script>
+            var typed = new Typed('#typed', {
+                strings: ['PROGRAMMER', 'BAKERY', 'BARISTA'],
+                typeSpeed: 80,
+                backSpeed: 50,
+                loop: true
+            });
+        </script>
+</body>
+</html>
